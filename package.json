@@ -14,7 +14,7 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack --mode development --output-path ./output/main.js",
+    "build": "webpack --mode production --output-path ./output/main.js"
   }
 }
